@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+  <!-- Declare window title, character set, and stylesheet -->
+  <head>
+    <title> Login to CollegeIn! </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="currentUsers.js"></script>
+    <script src="validateUser.js"></script>
+  </head>
+
+  <body>
+    <div class="header">Login to CollegeIn!</div>
+
+    <div class="container">
+
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+      </div>
+
+      <button onclick="location.href = validateLogin()">Login to Existing Account</button>
+      <button onclick="location.href='createAccount.html'">New to CollegeIn, create an account!</button>
+    </div>
+
+  </body>
+</html>

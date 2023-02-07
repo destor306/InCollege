@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>InCollege</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col-12" id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-4">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">InCollege</a>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="under-construction/under-construction.html"
+                  >Jobs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="skills/skills.html">Skills</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search students"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                onclick="onClickSearch()"
+                type="button"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row" style="background-color: lightgray">
+      <div class="col-md-3 my-5 mx-4 ml-md-5 mr-md-3">
+        <div class="card mx-auto text-center">
+          <div class="card-body">
+            <img
+              src="https://picsum.photos/200"
+              class="profile-picture my-4"
+              alt="profile-picture"
+            />
+            <h5 class="card-title">Profile name</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Job title</h6>
+            <p class="card-text">Sample text for the user's description.</p>
+
+            <button class="btn btn-primary my-3 mb-5">Account</button>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Link 1</li>
+              <li class="list-group-item">Link 2</li>
+              <li class="list-group-item">Link 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5 my-5 mx-4 mx-md-0">
+        <div class="card mx-auto">
+          <div class="card-header">Post</div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Create a post</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Write your thoughts here"
+              ></textarea>
+            </div>
+          </div>
+          <span class="ml-3 mb-4">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </span>
+        </div>
+      </div>
+      <div class="col-md-3 my-5 mx-4 mr-md-1 ml-md-3 text-center">
+        <div class="card">
+          <div class="card-header">News</div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Cras justo odio<a href="#" class="nav-link">LinkToArticle</a>
+              </li>
+              <li class="list-group-item">
+                Dapibus ac facilisis in<a href="#" class="nav-link"
+                  >LinkToArticle</a
+                >
+              </li>
+              <li class="list-group-item">
+                Vestibulum at eros<a href="#" class="nav-link">LinkToArticle</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://replit.com/public/js/replit-badge.js"
+      theme="blue"
+      defer
+    ></script>
+  </body>
+</html>
