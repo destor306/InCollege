@@ -4,6 +4,7 @@ const onSubmit = () => {
     if(validPassword){
       saveUser(username, password);
     }
+    return 'homePage.html';
   }
   
   const validPassword = (password) => {
